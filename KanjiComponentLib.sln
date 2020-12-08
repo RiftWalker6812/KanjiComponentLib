@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanjiComponentLib", "KanjiComponentLib.csproj", "{A95FC377-F02B-402C-8A30-CE481E3B41C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTester", "..\ConsoleTester\ConsoleTester.csproj", "{40AF09A0-7832-4BEB-AB56-05EBD1589492}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A95FC377-F02B-402C-8A30-CE481E3B41C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A95FC377-F02B-402C-8A30-CE481E3B41C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A95FC377-F02B-402C-8A30-CE481E3B41C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A95FC377-F02B-402C-8A30-CE481E3B41C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40AF09A0-7832-4BEB-AB56-05EBD1589492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40AF09A0-7832-4BEB-AB56-05EBD1589492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40AF09A0-7832-4BEB-AB56-05EBD1589492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40AF09A0-7832-4BEB-AB56-05EBD1589492}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1467607E-13E3-431E-A133-0743ECC3D7A0}
+	EndGlobalSection
+EndGlobal
