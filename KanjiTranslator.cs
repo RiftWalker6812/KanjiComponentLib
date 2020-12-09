@@ -48,23 +48,6 @@ namespace KanjiComponentLib
             return keyValuePairs;
         }
 
-        //static IEnumerable<T> DeserializeObjects<T>(string input)
-        //{
-        //    JsonSerializer serializer = new JsonSerializer();
-        //    using (var strreader = new StringReader(input))
-        //    using (var jsonreader = new JsonTextReader(strreader))
-        //    {
-        //        //you should use this line
-        //        jsonreader.SupportMultipleContent = true;
-
-        //        while (jsonreader.Read())
-        //        {
-        //            yield return serializer.Deserialize<T>(jsonreader);
-        //        }
-
-        //    }
-        //}
-
         public class kanjisObj
         {
             [JsonProperty]
@@ -81,7 +64,7 @@ namespace KanjiComponentLib
             [JsonProperty]
             int stroke_count { get; set; }
             [JsonProperty]
-            string[] meanings { get; set; }
+            public string[] meanings { get; set; }
             [JsonProperty]
             public string heisig_en { get; set; } //read this Return
             [JsonProperty]
